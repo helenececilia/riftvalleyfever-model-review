@@ -1,0 +1,50 @@
+paper_id,year,primary_obj,secondary_obj,model_obj,main_output,theor_appli,zone,scale,parent1,parent2,r0,data,data_newly_pub,spatial_model,external_inf,specify_move,FOI,FOI_justif,nb_host,nb_vector,host_taxa,vector_taxa
+Metras_2017,2017,understand,anticipate,FALSE,estimation,appli,Mayotte,sub,,,simulation,TRUE,TRUE,FALSE,TRUE,host_move,not_app,TRUE,1,0,Livestock,
+Metras_2020,2020,understand,control,FALSE,estimation,appli,Mayotte,sub,Metras_2017,,simulation,TRUE,TRUE,FALSE,FALSE,,not_app,TRUE,2,0,"Livestock, Human",
+Cecilia_2020,2020,understand,anticipate,FALSE,map_risk,appli,Senegal,sub,,,analytical,TRUE,FALSE,TRUE,FALSE,,FR,TRUE,2,3,"Cattle, Small ruminants","Aedes, Culex"
+Durand_2020,2020,understand,,FALSE,estimation,appli,Senegal,local,,,,TRUE,TRUE,FALSE,TRUE,host_move,FR,FALSE,2,2,"Cattle, Small ruminants","Aedes, Culex"
+Leedale_2016,2016,understand,,TRUE,map_risk,appli,"Kenya, Tanzania",international,Hoshen_2004,,,TRUE,FALSE,TRUE,FALSE,,FR,TRUE,1,2,Livestock,"Aedes, Culex"
+Taylor_2016,2016,anticipate,,FALSE,map_risk,appli,East African Community,international,Leedale_2016,,,TRUE,FALSE,TRUE,FALSE,,FR,TRUE,1,2,Livestock,"Aedes, Culex"
+Miron_2016,2016,anticipate,control,FALSE,sensitivity,grey,North America,local,Gaff_2007,,analytical,FALSE,,FALSE,FALSE,,MA,TRUE,2,1,"Livestock, Human",Aedes
+Gaff_2007,2007,understand,anticipate,TRUE,sensitivity,theor,,,,,analytical,FALSE,,FALSE,FALSE,,FI,FALSE,1,2,Livestock,"Aedes, Culex"
+Mpeshe_2011,2011,understand,,TRUE,sensitivity,theor,,,Gaff_2007,,analytical,FALSE,,FALSE,FALSE,,FI,FALSE,2,1,"Livestock, Human",Not precised
+Pedro_2017,2017,understand,,FALSE,sensitivity,theor,,,Pedro_2014,Mwambi_2000,analytical,FALSE,,FALSE,FALSE,,Hybrid1,TRUE,1,3,Livestock,"Aedes, Culex, Hyalomma ticks"
+Mcmahon_2014,2014,understand,control,FALSE,scenario,grey,East Africa,international,Manore_2011,,,TRUE,FALSE,TRUE,TRUE,indirect,Hybrid2,TRUE,3,2,"Cattle, Wildlife, Human","Aedes, Culex"
+Gil_2016,2016,understand,,FALSE,scenario,grey,Egypt,national,,,,FALSE,,FALSE,TRUE,host_move,MA,FALSE,1,1,Livestock,Culex
+Gaff_2011,2011,control,,FALSE,scenario,theor,,,Gaff_2007,,,FALSE,,FALSE,FALSE,,FI,FALSE,1,2,Cattle,"Aedes, Culex"
+Mpeshe_2014,2014,understand,,TRUE,sensitivity,grey,Tanzania,sub,Mpeshe_2011,,analytical,TRUE,FALSE,TRUE,FALSE,,FI,FALSE,2,2,"Livestock, Human","Aedes, Culex"
+Sumaye_2019,2019,understand,,TRUE,scenario,grey,Tanzania,sub,,,,FALSE,,TRUE,TRUE,host_move,Hybrid1,TRUE,2,4,"Cattle, Human","Aedes, Culex"
+Fischer_2013,2013,anticipate,,FALSE,map_risk,appli,Netherlands,national,,,analytical,TRUE,FALSE,TRUE,FALSE,,FR,FALSE,2,2,"Cattle, Small ruminants","Aedes, Culex"
+Nicolas_2014,2014,understand,,FALSE,estimation,appli,Madagascar,sub,,,,TRUE,FALSE,TRUE,TRUE,host_move,FR,FALSE,1,1,Cattle,Not precised
+Barker_2013,2013,anticipate,,TRUE,map_risk,appli,United States of America,sub,Gaff_2007,,analytical,TRUE,FALSE,TRUE,FALSE,,FI,TRUE,2,2,"Cattle, Birds","Aedes, Culex"
+Niu_2012,2012,understand,,TRUE,scenario,theor,,local,Gaff_2007,,analytical,FALSE,,TRUE,TRUE,vector_and_hosts,FI,FALSE,1,2,Livestock,"Aedes, Culex"
+Gachohi_2016,2016,control,,FALSE,scenario,grey,Kenya,local,,,,TRUE,FALSE,FALSE,FALSE,,FR,FALSE,2,2,"Cattle, Small ruminants","Aedes, Culex"
+Adongo_2013,2013,control,,TRUE,scenario,theor,,,Gaff_2011,,,FALSE,,FALSE,FALSE,,FI,FALSE,1,2,Livestock,"Aedes, Culex"
+Gao_2013,2013,understand,,TRUE,scenario,grey,"Sudan, Egypt",international,,,analytical,FALSE,,TRUE,TRUE,host_move,MA,TRUE,1,1,Livestock,Not precised
+Pedro_2016a,2016,understand,anticipate,FALSE,math_properties,grey,"East Africa, South Africa",,Lloyd_2007,,analytical,TRUE,FALSE,FALSE,FALSE,,Hybrid1,TRUE,1,1,Livestock,Aedes
+Chamchod_2014,2014,understand,control,TRUE,scenario,theor,,,,,analytical,FALSE,,FALSE,FALSE,,FR,TRUE,1,1,Livestock,Not precised
+Chamchod_2016,2016,control,,FALSE,scenario,theor,,,,,analytical,FALSE,,FALSE,FALSE,,MA,FALSE,1,1,Livestock,Not precised
+Cavalerie_2015,2015,understand,,FALSE,estimation,grey,Mayotte,sub,Gaff_2007,,,TRUE,TRUE,FALSE,FALSE,,FR,FALSE,1,1,Livestock,Mean from several species
+Xiao_2015,2015,understand,,FALSE,scenario,grey,"Sudan, Egypt",international,Gao_2013,,analytical,FALSE,,TRUE,TRUE,host_move,MA,TRUE,1,1,Livestock,Culex
+Chitnis_2013,2013,understand,,FALSE,sensitivity,theor,,,Chitnis_2006,,analytical,FALSE,,FALSE,FALSE,,Hybrid1,FALSE,1,1,Cattle,Aedes
+Paul_2020,2020,understand,,FALSE,scenario,theor,,local,,,,FALSE,,TRUE,TRUE,host_move,FI,FALSE,1,2,Animals,"Aedes, Culex"
+Bicout_2004,2004,understand,,FALSE,scenario,appli,Senegal,local,,,,TRUE,FALSE,FALSE,FALSE,,FR,FALSE,1,2,Livestock,"Aedes, Culex"
+Tuncer_2016,2016,understand,,TRUE,estimation,grey,Kenya,sub,,,,TRUE,FALSE,FALSE,FALSE,,MA_pathogen,FALSE,2,1,"Livestock, Human",Not precised
+Scoglio_2016,2016,understand,control,FALSE,scenario,appli,United States of America,sub,Sahneh_2013,,,TRUE,FALSE,TRUE,TRUE,host_move,not_app,TRUE,1,0,Cattle,
+Yang_2016,2016,control,,FALSE,scenario,theor,,,,,analytical,FALSE,,FALSE,FALSE,,MA,FALSE,1,1,Livestock,Not precised
+Xue_2012,2012,understand,,TRUE,estimation,appli,South Africa,sub,Gaff_2007,,analytical,TRUE,FALSE,TRUE,TRUE,vector_and_hosts,FI,FALSE,2,2,"Sheep, Human","Aedes, Culex"
+Xue_2013a,2013,understand,,TRUE,scenario,theor,,,,,analytical,FALSE,,TRUE,TRUE,host_move,FI,FALSE,2,2,"Livestock, Human","Aedes, Culex"
+Manore_2015,2015,understand,,FALSE,scenario,grey,South Africa,local,Chitnis_2013,,,FALSE,,FALSE,FALSE,,Hybrid1,TRUE,1,1,Buffalo,Aedes
+Xue_2013b,2013,understand,,TRUE,map_risk,appli,United States of America,sub,Xue_2012,,,TRUE,FALSE,TRUE,TRUE,vector_and_hosts,FI,FALSE,2,2,"Cattle, Human","Aedes, Culex"
+Pedro_2014,2014,understand,,FALSE,math_properties,theor,,,Gaff_2007,,analytical,FALSE,,FALSE,FALSE,,Hybrid1,TRUE,1,2,Livestock,"Aedes, Culex"
+Beechler_2015,2015,understand,,FALSE,scenario,appli,South Africa,local,Manore_2015,,,TRUE,TRUE,FALSE,FALSE,,Hybrid1,FALSE,1,1,Buffalo,Aedes (assumed)
+Sekamatte_2019,2019,understand,control,FALSE,scenario,appli,Uganda,sub,Scoglio_2016,,,TRUE,FALSE,TRUE,TRUE,indirect,not_app,TRUE,1,0,Cattle,
+EFSA_2020_1,2020,control,,FALSE,scenario,appli,Mayotte,sub,Metras_2017,Metras_2020,,TRUE,FALSE,FALSE,FALSE,,not_app,TRUE,1,1,Livestock,Culex
+EFSA_2020_2,2020,control,,FALSE,map_risk,appli,Netherlands,national,,,,TRUE,FALSE,TRUE,TRUE,indirect,FR,FALSE,1,0,Livestock,
+Tennant_2021,2021,understand,control,FALSE,estimation,appli,Comoros archipelago,international,,,analytical,TRUE,FALSE,TRUE,TRUE,host_move,not_app,FALSE,1,0,Livestock,
+Lo_Iacono_2018,2018,understand,,FALSE,scenario,grey,Kenya,national,,,,TRUE,FALSE,FALSE,FALSE,,Hybrid3,FALSE,1,2,Livestock,"Aedes, Culex"
+Pedro_2016b,2016,understand,,FALSE,sensitivity,theor,,,Pedro_2014,,analytical,FALSE,,FALSE,FALSE,,Hybrid1,FALSE,1,2,Livestock,"Aedes, Culex"
+Wen_2019,2019,understand,,FALSE,scenario,theor,,,,,analytical,FALSE,,TRUE,TRUE,host_move,MA,FALSE,1,1,Livestock,Not precised
+Xue_2015,2015,understand,,FALSE,scenario,theor,,,,,analytical,FALSE,,TRUE,TRUE,indirect,FR,FALSE,1,1,Livestock,Not precised
+Pedro_2018,2018,understand,,FALSE,scenario,theor,,,Maidana_2008,,analytical,FALSE,,FALSE,FALSE,,FR,FALSE,1,1,Livestock,Aedes
+Mpeshe_2021,2021,understand,,TRUE,scenario,theor,,,,,analytical,FALSE,,FALSE,FALSE,,FI,FALSE,1,1,Human,Not precised
