@@ -126,12 +126,14 @@ for(m in 1:nrow(with_parent)){
 }
 summary(as.factor(category_parent_son))
 
+# Do not count FOI = NA
 parent_son_same_FOI <- NULL
 parent_son_justif <- NULL
-for(m in 1:nrow(with_parent)){
-  foi_son <- with_parent[m,"FOI"]
-  justif_son <- with_parent[m,"FOI_justif"]
-  parent_id <- with_parent[m,"parent1"]
+with_parent_noNA <- with_parent[with_parent$FOI != "not_app",]
+for(m in 1:nrow(with_parent_noNA)){
+  foi_son <- with_parent_noNA[m,"FOI"]
+  justif_son <- with_parent_noNA[m,"FOI_justif"]
+  parent_id <- with_parent_noNA[m,"parent1"]
   if(parent_id %in% articles$paper_id){
     foi_parent <- articles[articles$paper_id == parent_id,"FOI"]
     justif_parent <- articles[articles$paper_id == parent_id,"FOI_justif"]
@@ -139,7 +141,7 @@ for(m in 1:nrow(with_parent)){
     justif <- paste(justif_parent,justif_son,sep="-")
     parent_son_same_FOI <- c(parent_son_same_FOI, foi_parent == foi_son)
     parent_son_justif <- c(parent_son_justif, justif)
-    print(paste(parent_id,with_parent[m,"paper_id"],foi,justif, paste = ";"))
+    print(paste(parent_id,with_parent_noNA[m,"paper_id"],foi,justif, paste = ";"))
   }
 }
 summary(parent_son_same_FOI)

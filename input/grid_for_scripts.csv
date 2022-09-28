@@ -41,7 +41,7 @@ Beechler_2015,2015,understand,,FALSE,scenario,appli,South Africa,local,Manore_20
 Sekamatte_2019,2019,understand,control,FALSE,scenario,appli,Uganda,sub,Scoglio_2016,,,TRUE,FALSE,TRUE,TRUE,indirect,not_app,TRUE,1,0,Cattle,
 EFSA_2020_1,2020,control,,FALSE,scenario,appli,Mayotte,sub,Metras_2017,Metras_2020,,TRUE,FALSE,FALSE,FALSE,,not_app,TRUE,1,1,Livestock,Culex
 EFSA_2020_2,2020,control,,FALSE,map_risk,appli,Netherlands,national,,,,TRUE,FALSE,TRUE,TRUE,indirect,FR,FALSE,1,0,Livestock,
-Tennant_2021,2021,understand,control,FALSE,estimation,appli,Comoros archipelago,international,,,analytical,TRUE,FALSE,TRUE,TRUE,host_move,not_app,FALSE,1,0,Livestock,
+Tennant_2021,2021,understand,control,FALSE,estimation,appli,Comoros archipelago,international,Metras_2017,,analytical,TRUE,FALSE,TRUE,TRUE,host_move,not_app,FALSE,1,0,Livestock,
 Lo_Iacono_2018,2018,understand,,FALSE,scenario,grey,Kenya,national,,,,TRUE,FALSE,FALSE,FALSE,,Hybrid3,FALSE,1,2,Livestock,"Aedes, Culex"
 Pedro_2016b,2016,understand,,FALSE,sensitivity,theor,,,Pedro_2014,,analytical,FALSE,,FALSE,FALSE,,Hybrid1,FALSE,1,2,Livestock,"Aedes, Culex"
 Wen_2019,2019,understand,,FALSE,scenario,theor,,,,,analytical,FALSE,,TRUE,TRUE,host_move,MA,FALSE,1,1,Livestock,Not precised
