@@ -47,7 +47,7 @@ summary(as.factor(articles[articles$external_inf == TRUE & articles$spatial_mode
 zone_appli <- articles[articles$theor_appli=="appli",]$zone
 zone_grey <- articles[articles$theor_appli=="grey",]$zone
 
-# Change Tanzania into United Republic of Tanzania"
+# Change some names to be recognized by ne_countries()
 zone_appli <- replace(zone_appli, zone_appli == "Mayotte", "Comoros")
 zone_appli <- replace(zone_appli, zone_appli == "Comoros archipelago", "Comoros")
 zone_appli <- zone_appli[!zone_appli %in% c("Kenya, Tanzania","East African Community")]
@@ -112,7 +112,7 @@ scales[scales$scale == "national",]$dummy_y <- 3
 scales[scales$scale == "sub national",]$dummy_y <- 2
 scales[scales$scale == "local",]$dummy_y <- 1
 scales$scale <- factor(scales$scale, levels = c("local","sub national","national","international")) #,"national","sub national","local"
-scales[scales$zone == "United States of America",]$zone <- "US"
+scales[scales$zone == "United States of America",]$zone <- "USA"
 scales[scales$theor_appli == "appli",]$theor_appli <- "applied"
 scales[scales$zone == "Kenya, Tanzania",]$zone <- "Kenya and Tanzania"
 scales[scales$zone == "Sudan, Egypt",]$zone <- "Egypt and Sudan"
